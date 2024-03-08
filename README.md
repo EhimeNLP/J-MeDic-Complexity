@@ -21,7 +21,7 @@ A列の出現形に対する用語難易度をB列に示しています。
 # 文献情報
 杉原 壮一郎, 梶原 智之, 二宮 崇, 若宮 翔子, 荒牧 英治. <br>
 日本語における医療用語の難易度辞書の半自動構築. <br>
-言語処理学会第30回年次大会, pp.260-264, March 2024. [[pdf](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P1-22.pdf)]
+言語処理学会第30回年次大会, pp.260-264, March 2024. [[PDF](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P1-22.pdf)]
 
 # ライセンス
 Creative Commons Attribution 4.0 International License (CC BY 4.0)
