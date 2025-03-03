@@ -1,0 +1,13 @@
+cc.ja.300.bin
+logs/
+cc100_freq_notmanbyo.json
+cc100_freq.json
+medic/code/GitHub/pred/data/cc100_freq.json
+split_char_cc100.json
+split_char_wiki.json
+wiki_freq_notmanbyo.json
+wiki_freq.json
+job.sh
+json_gzip.py
+model.pkl.gz
+feature/

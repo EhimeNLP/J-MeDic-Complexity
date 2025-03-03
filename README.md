@@ -8,7 +8,7 @@
 |4|見た/聞いたことはあるが，意味は分からない|
 |5（難解）|見た/聞いたことが無く，意味が分からない|
 
-# ファイル情報
+## ファイル情報
 A列の出現形に対する用語難易度をB列に示しています。
 |出現形（A列）|用語難易度（B列）|
 | :--- | :---: |
@@ -18,10 +18,19 @@ A列の出現形に対する用語難易度をB列に示しています。
 |胆のう管癒着|4|
 |仙腸関節ストレイン|5|
 
+# 難易度辞書の更新
+任意の医療用語に難易度を付与することもできます。
+
+## 使い方
+- [ここ](https://fasttext.cc/docs/en/crawl-vectors.html)からcc.ja.300.binをダウンロードし、[data/](./data/)に置く
+- 難易度を推定したい医療用語をcsvファイルにまとめ、[data/words/](./data/words/)に置く（[sample.csv](./data/words/sample.csv)を参考にしてください）
+- [code/bash.sh](./code/bash.sh)を実行する（ファイル名は適宜書き換えてください）
+- [output/](./output/)に難易度が付与されたファイルが出力されます
+
 # 文献情報
-杉原 壮一郎, 梶原 智之, 二宮 崇, 若宮 翔子, 荒牧 英治. <br>
-日本語における医療用語の難易度辞書の半自動構築. <br>
-言語処理学会第30回年次大会, pp.260-264, March 2024. [[PDF](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P1-22.pdf)]
+Soichiro Sugihara, Tomoyuki Kajiwara, Takashi Ninomiya, Shoko Wakamiya, Eiji Aramaki. <br>
+Semi-automatic Construction of a Word Complexity Lexicon for Japanese Medical Terminology. <br>
+Proceedings of the 6th Clinical Natural Language Processing Workshop, pp.329-333, Jun 2024. [[PDF](https://aclanthology.org/2024.clinicalnlp-1.29.pdf)]
 
 # ライセンス
 Creative Commons Attribution 4.0 International License (CC BY 4.0)
