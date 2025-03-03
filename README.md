@@ -27,7 +27,7 @@ A列の出現形に対する用語難易度をB列に示しています。
 - [ここ](https://fasttext.cc/docs/en/crawl-vectors.html)からcc.ja.300.binをダウンロードし、[data/](./data/)に置く
 - 難易度を付与したい医療用語をcsvファイルにまとめ、[data/words/](./data/words/)に置く（[sample.csv](./data/words/sample.csv)を参考にしてください）
 - [code/bash.sh](./code/bash.sh)を実行する
-- [output/](./output/)に難易度が付与されたファイルが出力されます([output.csv]（./output/output.csv)を参考にしてください）
+- [output/](./output/)に難易度が付与されたファイルが出力されます（[output.csv](./output/output.csv)を参考にしてください）
 
 <br>
 
