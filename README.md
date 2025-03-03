@@ -19,7 +19,6 @@ A列の出現形に対する用語難易度をB列に示しています。
 |仙腸関節ストレイン|5|
 
 <br>
-<br>
 
 # 難易度辞書の更新
 任意の医療用語に難易度を付与することもできます。
@@ -31,12 +30,13 @@ A列の出現形に対する用語難易度をB列に示しています。
 - [output/](./output/)に難易度が付与されたファイルが出力されます([output.csv](./output/output.csv)を参考にしてください)
 
 <br>
-<br>
 
 # 文献情報
 Soichiro Sugihara, Tomoyuki Kajiwara, Takashi Ninomiya, Shoko Wakamiya, Eiji Aramaki. <br>
 Semi-automatic Construction of a Word Complexity Lexicon for Japanese Medical Terminology. <br>
 Proceedings of the 6th Clinical Natural Language Processing Workshop, pp.329-333, Jun 2024. [[PDF](https://aclanthology.org/2024.clinicalnlp-1.29.pdf)]
+
+<br>
 
 # ライセンス
 Creative Commons Attribution 4.0 International License (CC BY 4.0)
