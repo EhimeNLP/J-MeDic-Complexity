@@ -30,6 +30,9 @@ A列の出現形に対する用語難易度をB列に示しています。
 - [code/bash.sh](./code/bash.sh)を実行する（ファイル名は適宜書き換えてください）
 - [output/](./output/)に難易度が付与されたファイルが出力されます([output.csv](./output/output.csv)を参考にしてください)
 
+<br>
+<br>
+
 # 文献情報
 Soichiro Sugihara, Tomoyuki Kajiwara, Takashi Ninomiya, Shoko Wakamiya, Eiji Aramaki. <br>
 Semi-automatic Construction of a Word Complexity Lexicon for Japanese Medical Terminology. <br>
