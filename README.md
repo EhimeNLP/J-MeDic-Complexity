@@ -17,9 +17,8 @@ A列の出現形に対する用語難易度をB列に示しています。
 |上腕骨粉砕骨折|3|
 |胆のう管癒着|4|
 |仙腸関節ストレイン|5|
-
-
-
+<br>
+<br>
 # 難易度辞書の更新
 任意の医療用語に難易度を付与することもできます。
 
@@ -27,7 +26,7 @@ A列の出現形に対する用語難易度をB列に示しています。
 - [ここ](https://fasttext.cc/docs/en/crawl-vectors.html)からcc.ja.300.binをダウンロードし、[data/](./data/)に置く
 - 難易度を推定したい医療用語をcsvファイルにまとめ、[data/words/](./data/words/)に置く（[sample.csv](./data/words/sample.csv)を参考にしてください）
 - [code/bash.sh](./code/bash.sh)を実行する（ファイル名は適宜書き換えてください）
-- [output/](./output/)に難易度が付与されたファイルが出力されます
+- [output/](./output/)に難易度が付与されたファイルが出力されます([output.csv](./output/output.csv)を参考にしてください)
 
 # 文献情報
 Soichiro Sugihara, Tomoyuki Kajiwara, Takashi Ninomiya, Shoko Wakamiya, Eiji Aramaki. <br>
