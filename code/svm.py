@@ -16,7 +16,7 @@ def main(model, words, feature, output):
 	df_label = pd.DataFrame(pred)
 
 	df_output = pd.concat([df_words, df_label], axis=1)
-	df_output.columns = ["医療用語", "難易度"]
+	df_output.columns = ["医療用語", "用語難易度"]
 
 	df_output.to_csv(output, index=False, encoding="utf-8")
 
