@@ -1,0 +1,6 @@
+data/cc100_freq.json.gz filter=lfs diff=lfs merge=lfs -text
+data/split_char_cc100.json.gz filter=lfs diff=lfs merge=lfs -text
+data/split_char_wiki.json.gz filter=lfs diff=lfs merge=lfs -text
+data/wiki_freq_notmanbyo.json.gz filter=lfs diff=lfs merge=lfs -text
+data/wiki_freq.json.gz filter=lfs diff=lfs merge=lfs -text
+model/model.pkl filter=lfs diff=lfs merge=lfs -text
